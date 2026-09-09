@@ -1,0 +1,2 @@
+-- Database schema for Simora
+-- Silakan isi sesuai kebutuhan proyek Anda.
