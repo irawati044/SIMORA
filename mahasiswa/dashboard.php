@@ -17,26 +17,19 @@ wajib_role("mahasiswa");
 
     <h2>Selamat datang, <?php echo htmlspecialchars($_SESSION["nama"]); ?>!</h2>
 
-    <p>Berikut data akun Anda:</p>
-
     <ul>
         <li>Nama: <?php echo htmlspecialchars($_SESSION["nama"]); ?></li>
         <li>Email: <?php echo htmlspecialchars($_SESSION["email"]); ?></li>
         <li>Role: Mahasiswa</li>
-        <li>Status akun: Aktif</li>
     </ul>
 
     <hr>
 
-    <h3>Menu yang akan tersedia</h3>
+    <h3>Menu</h3>
 
     <ul>
-        <li>Melihat daftar organisasi</li>
-        <li>Melihat organisasi yang membuka pendaftaran</li>
-        <li>Mendaftar organisasi</li>
-        <li>Melihat status pendaftaran</li>
-        <li>Melihat jadwal wawancara</li>
-        <li>Melihat hasil seleksi</li>
+        <li><a href="organisasi.php">Lihat Daftar Organisasi</a></li>
+        <li><a href="status_pendaftaran.php">Status Pendaftaran Saya</a></li>
     </ul>
 
     <a href="../logout.php">Logout</a>
