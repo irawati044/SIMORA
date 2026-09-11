@@ -25,10 +25,13 @@ wajib_role("pengurus");
 
     <h3>Menu</h3>
 
-    <ul>
-        <li><a href="pendaftar.php">Data Pendaftar Organisasi</a></li>
-    </ul>
-
+<ul>
+    <li><a href="pendaftar.php">Data Pendaftar Organisasi</a></li>
+    <li><a href="wawancara.php">Jadwal Wawancara</a></li>
+    <li><a href="penilaian.php">Penilaian Wawancara</a></li>
+    <li><a href="hasil_akhir.php">Penetapan Hasil Akhir</a></li>
+    <li><a href="kelola_organisasi.php">Kelola Organisasi Saya</a></li>
+</ul>
     <a href="../logout.php">Logout</a>
 </body>
 </html>

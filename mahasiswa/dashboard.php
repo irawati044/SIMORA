@@ -13,8 +13,6 @@ wajib_role("mahasiswa");
 <body>
     <h1>Dashboard Mahasiswa</h1>
 
-    <hr>
-
     <h2>Selamat datang, <?php echo htmlspecialchars($_SESSION["nama"]); ?>!</h2>
 
     <ul>
@@ -27,10 +25,12 @@ wajib_role("mahasiswa");
 
     <h3>Menu</h3>
 
-    <ul>
-        <li><a href="organisasi.php">Lihat Daftar Organisasi</a></li>
-        <li><a href="status_pendaftaran.php">Status Pendaftaran Saya</a></li>
-    </ul>
+<ul>
+    <li><a href="organisasi.php">Lihat Daftar Organisasi</a></li>
+    <li><a href="status_pendaftaran.php">Status Pendaftaran Saya</a></li>
+    <li><a href="jadwal_wawancara.php">Jadwal Wawancara Saya</a></li>
+    <li><a href="hasil_seleksi.php">Hasil Seleksi Saya</a></li>
+</ul>
 
     <a href="../logout.php">Logout</a>
 </body>
