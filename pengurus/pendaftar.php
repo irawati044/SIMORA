@@ -33,7 +33,7 @@ $data_pendaftar = $query->get_result();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Data Pendaftar - SIMORA</title>
 </head>
 <body>

@@ -80,7 +80,7 @@ $jadwal_form = date("Y-m-d\TH:i", strtotime($wawancara["jadwal"]));
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Edit Jadwal Wawancara - SIMORA</title>
 </head>
 <body>

@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 32px;
+    background-color: #f4f7fb;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    color: #1d4ed8;
+}
+
+h2 {
+    color: #1e40af;
+}
+
+h3 {
+    color: #374151;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body > h1,
+body > h2,
+body > h3,
+body > p,
+body > ul,
+body > table,
+body > form,
+body > hr {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > h1,
+body > h2,
+body > h3,
+body > p,
+body > ul,
+body > form {
+    background-color: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body > h1 {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+    border-radius: 12px 12px 0 0;
+}
+
+body > h2,
+body > h3,
+body > p,
+body > ul,
+body > form {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+body > form {
+    padding-bottom: 24px;
+    border-radius: 0 0 12px 12px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #dbe3ef;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+th {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #dbe3ef;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+form {
+    margin-top: 12px;
+}
+
+form p {
+    margin-bottom: 16px;
+}
+
+form[style*="inline"] {
+    display: inline;
+    margin-left: 8px;
+}
+
+form[style*="inline"] button {
+    background-color: #dc2626;
+}
+
+form[style*="inline"] button:hover {
+    background-color: #b91c1c;
+}
+
+strong {
+    color: #111827;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

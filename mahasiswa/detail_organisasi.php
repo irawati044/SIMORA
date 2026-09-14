@@ -32,7 +32,7 @@ $organisasi = $data->fetch_assoc();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Detail Organisasi - SIMORA</title>
 </head>
 <body>

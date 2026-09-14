@@ -30,7 +30,7 @@ $data_semua = $query_semua->get_result();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Daftar Organisasi - SIMORA</title>
 </head>
 <body>

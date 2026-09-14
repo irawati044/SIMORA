@@ -37,7 +37,7 @@ $data_pendaftaran = $query_pendaftaran->get_result();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Status Pendaftaran - SIMORA</title>
 </head>
 <body>

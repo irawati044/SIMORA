@@ -7,7 +7,7 @@ wajib_role("pengurus");
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Dashboard Pengurus - SIMORA</title>
 </head>
 <body>

@@ -52,7 +52,7 @@ $data_jadwal = $query_jadwal->get_result();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Jadwal Wawancara - SIMORA</title>
 </head>
 <body>

@@ -31,7 +31,7 @@ $data_hasil = $query->get_result();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Hasil Seleksi Saya - SIMORA</title>
 </head>
 <body>
@@ -58,25 +58,44 @@ $data_hasil = $query->get_result();
             <?php while ($hasil = $data_hasil->fetch_assoc()) : ?>
                 <tr>
                     <td><?php echo $nomor++; ?></td>
-                    <td><?php echo htmlspecialchars($hasil["nama_organisasi"]); ?></td>
-                    <td><?php echo htmlspecialchars($hasil["nilai"]); ?></td>
+
+                    <td>
+                        <?php echo htmlspecialchars($hasil["nama_organisasi"]); ?>
+                    </td>
+
+                    <td>
+                        <?php echo htmlspecialchars($hasil["nilai"] ?? "-"); ?>
+                    </td>
+
                     <td>
                         <?php
-                        echo htmlspecialchars(
-                            ucwords(str_replace("_", " ", $hasil["keputusan"]))
-                        );
+                        if ($hasil["keputusan"] !== null) {
+                            echo htmlspecialchars(
+                                ucwords(
+                                    str_replace("_", " ", $hasil["keputusan"])
+                                )
+                            );
+                        } else {
+                            echo "-";
+                        }
                         ?>
                     </td>
+
                     <td>
                         <strong>
                             <?php
                             echo htmlspecialchars(
-                                ucwords(str_replace("_", " ", $hasil["status"]))
+                                ucwords(
+                                    str_replace("_", " ", $hasil["status"])
+                                )
                             );
                             ?>
                         </strong>
                     </td>
-                    <td><?php echo htmlspecialchars($hasil["catatan"]); ?></td>
+
+                    <td>
+                        <?php echo htmlspecialchars($hasil["catatan"] ?? "-"); ?>
+                    </td>
                 </tr>
             <?php endwhile; ?>
         <?php else : ?>

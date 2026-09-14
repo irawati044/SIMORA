@@ -34,7 +34,7 @@ $total_diterima = $query_diterima->get_result()->fetch_assoc()["total"];
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Dashboard Admin - SIMORA</title>
 </head>
 <body>
@@ -57,12 +57,25 @@ $total_diterima = $query_diterima->get_result()->fetch_assoc()["total"];
 
     <h3>Menu Admin</h3>
 
-<ul>
-    <li><a href="monitoring.php">Monitoring Pendaftaran</a></li>
-    <li><a href="organisasi.php">Kelola Organisasi</a></li>
-    <li>Kelola pengguna — dibuat pada bagian berikutnya</li>
-    <li>Kelola pengurus — dibuat pada bagian berikutnya</li>
-</ul>
+    <ul>
+        <li>
+            <a href="monitoring.php">Monitoring Pendaftaran</a>
+        </li>
+
+        <li>
+            <a href="users.php">Kelola Pengguna</a>
+        </li>
+
+        <li>
+            <a href="organisasi.php">Kelola Organisasi</a>
+        </li>
+
+        <li>
+            <a href="pengurus.php">Kelola Pengurus</a>
+        </li>
+    </ul>
+
+    <hr>
 
     <a href="../logout.php">Logout</a>
 </body>

@@ -60,7 +60,7 @@ $data_sudah_dinilai = $query_sudah_dinilai->get_result();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Penilaian Wawancara - SIMORA</title>
 </head>
 <body>

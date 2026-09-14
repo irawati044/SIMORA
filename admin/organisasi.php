@@ -17,7 +17,7 @@ $data_organisasi = $query->get_result();
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Kelola Organisasi - SIMORA</title>
 </head>
 <body>

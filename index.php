@@ -5,7 +5,7 @@ require_once "config/koneksi.php";
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>SIMORA</title>
 </head>
 <body>

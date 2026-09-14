@@ -59,7 +59,7 @@ $sudah_daftar = $query_cek->num_rows > 0;
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/simora/assets/css/style.css">
     <title>Pendaftaran Organisasi - SIMORA</title>
 </head>
 <body>
